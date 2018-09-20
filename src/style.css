@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #193441;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container p {
+  text-align: center;
+  padding: 5px 10px;
+  background-color: #3e606f;
+  border-radius: 10px;
+  color: white;
+}
+
+#form {
+  background-color: #91aa9d;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#form form {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 300px;
+}
